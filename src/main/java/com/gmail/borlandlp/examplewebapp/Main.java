@@ -6,6 +6,7 @@ import org.springframework.context.ApplicationContext;
 
 public class Main {
     public static void main(String[] args) {
+        //https://habr.com/post/419679/
         try {
             ApplicationContext applicationContext = new ApplicationContext("com.gmail.borlandlp.examplewebapp");
             applicationContext.close();
